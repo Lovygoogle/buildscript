@@ -1,4 +1,5 @@
 name: Remove stale staging resources
+# gh repo clone aws-actions/stale-issue-cleanup
 
 # **What it does**:
 # This cleans up any rogue staging applications and environments that outlasted
