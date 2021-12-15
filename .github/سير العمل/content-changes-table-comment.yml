@@ -127,3 +127,65 @@ jobs:
             _You may find it useful to copy this table into the pull request summary. There you can edit it to share links to important articles or changes and to give a high-level overview of how the changes in your pull request support the overall goals of the pull request._
             ${{ steps.changes.outputs.changesTable }}
           edit-mode: replace
+2021-12-15T10:06:40.6944238Z Found online and idle hosted runner in the current repository's organization account that matches the required labels: 'ubuntu-latest'
+2021-12-15T10:06:40.7630487Z Waiting for a Hosted runner in the 'organization' to pick this job...
+2021-12-15T10:06:42.0854042Z Job is waiting for a hosted runner to come online.
+2021-12-15T10:06:44.9180977Z Job is about to start running on the hosted runner: Hosted Agent (hosted)
+2021-12-15T10:06:53.3162641Z Current runner version: '2.285.1'
+2021-12-15T10:06:53.3190213Z ##[group]Operating System
+2021-12-15T10:06:53.3191168Z Ubuntu
+2021-12-15T10:06:53.3191582Z 20.04.3
+2021-12-15T10:06:53.3192039Z LTS
+2021-12-15T10:06:53.3192524Z ##[endgroup]
+2021-12-15T10:06:53.3193082Z ##[group]Virtual Environment
+2021-12-15T10:06:53.3193720Z Environment: ubuntu-20.04
+2021-12-15T10:06:53.3194235Z Version: 20211209.3
+2021-12-15T10:06:53.3195230Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20211209.3/images/linux/Ubuntu2004-README.md
+2021-12-15T10:06:53.3196579Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20211209.3
+2021-12-15T10:06:53.3197421Z ##[endgroup]
+2021-12-15T10:06:53.3198043Z ##[group]Virtual Environment Provisioner
+2021-12-15T10:06:53.3198626Z 1.0.0.0-main-20211208-1
+2021-12-15T10:06:53.3199146Z ##[endgroup]
+2021-12-15T10:06:53.3201282Z ##[group]GITHUB_TOKEN Permissions
+2021-12-15T10:06:53.3202603Z Actions: write
+2021-12-15T10:06:53.3203216Z Checks: write
+2021-12-15T10:06:53.3203806Z Contents: write
+2021-12-15T10:06:53.3204326Z Deployments: write
+2021-12-15T10:06:53.3204915Z Discussions: write
+2021-12-15T10:06:53.3205396Z Issues: write
+2021-12-15T10:06:53.3205905Z Metadata: read
+2021-12-15T10:06:53.3206382Z Packages: write
+2021-12-15T10:06:53.3206906Z Pages: write
+2021-12-15T10:06:53.3207423Z PullRequests: write
+2021-12-15T10:06:53.3208058Z RepositoryProjects: write
+2021-12-15T10:06:53.3208701Z SecurityEvents: write
+2021-12-15T10:06:53.3209244Z Statuses: write
+2021-12-15T10:06:53.3209865Z ##[endgroup]
+2021-12-15T10:06:53.3212662Z Secret source: Actions
+2021-12-15T10:06:53.3213602Z Prepare workflow directory
+2021-12-15T10:06:53.3798432Z Prepare all required actions
+2021-12-15T10:06:53.3808724Z Getting action download info
+2021-12-15T10:06:53.6678025Z Download action repository 'dorny/paths-filter@eb75a1edc117d3756a18ef89958ee59f9500ba58' (SHA:eb75a1edc117d3756a18ef89958ee59f9500ba58)
+2021-12-15T10:06:56.5776920Z ##[group]Run dorny/paths-filter@eb75a1edc117d3756a18ef89958ee59f9500ba58
+2021-12-15T10:06:56.5777851Z with:
+2021-12-15T10:06:56.5778240Z   base: main
+2021-12-15T10:06:56.5778670Z   list-files: json
+2021-12-15T10:06:56.5779248Z   filters: filterContentDir:
+  - 'content/**/*'
+
+2021-12-15T10:06:56.5780270Z   token: ***
+2021-12-15T10:06:56.5780772Z   initial-fetch-depth: 10
+2021-12-15T10:06:56.5781267Z ##[endgroup]
+2021-12-15T10:06:56.8229459Z ##[group]Fetching list of changed files for PR#35 from Github API
+2021-12-15T10:06:56.8231420Z Number of changed_files is 2
+2021-12-15T10:06:56.8336788Z Invoking listFiles(pull_number: 35, page: 1, per_page: 100)
+2021-12-15T10:06:57.1773946Z [modified] .github/workflows/crowdin-cleanup.yml
+2021-12-15T10:06:57.1776758Z [modified] .github/workflows/openapi-decorate.yml
+2021-12-15T10:06:57.1779534Z ##[endgroup]
+2021-12-15T10:06:57.1786324Z Results:
+2021-12-15T10:06:57.1788450Z ##[group]Filter filterContentDir = false
+2021-12-15T10:06:57.1789240Z Matching files: none
+2021-12-15T10:06:57.1822623Z ##[endgroup]
+2021-12-15T10:06:57.1897911Z Evaluate and set job outputs
+2021-12-15T10:06:57.1916608Z Set output 'filterContentDir'
+2021-12-15T10:06:57.1919187Z Cleaning up orphan processes
